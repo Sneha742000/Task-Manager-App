@@ -136,7 +136,7 @@ const Form = () => {
 
 
 
-<Link to="/home">
+<Link to="/">
   <button className='bg-teal-950 text-white px-4 py-2 rounded-md'>
     Back to Home
   </button>

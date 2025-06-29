@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import React from 'react'
 
 const Home = () => {
@@ -10,10 +12,7 @@ const Home = () => {
 
         </form>
         <br /><br />
-        <a href="/form">
-        
-            <button className='bg-gray-400 text-white px-4 py-2 rounded-md'>Add Tasks</button>
-            </a>
+        <Link to = "/form"><button className='bg-gray-400 text-white px-4 py-2 rounded-md'>Add Tasks</button></Link>
             
         </div>
   )

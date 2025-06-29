@@ -50,11 +50,11 @@ function App()  {
   return(
     <BrowserRouter>
     <Routes>
-      <Route path="/home" element={<Home  />} />
+      <Route path="/" element={<Home  />} />
       <Route path="/form" element={<Form />} />
       {/* <Route path="/table" element={<Table handleSubmit={handleSubmit} />} /> */}
       
-      <Route path="*" element={<Navigate to="/home" />} />
+      <Route path="*" element={<Navigate to="/" />} />
     </Routes>
     </BrowserRouter>
   );
