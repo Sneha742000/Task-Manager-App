@@ -1,3 +1,5 @@
+
+import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import useForm from '../hooks/useForm';
 
@@ -130,9 +132,16 @@ const Form = () => {
         </tbody>
       </table>
       <br /><br /><br />
-      <a href="/home">
-<button className='bg-teal-950 text-white px-4 py-2 rounded-md' type='submit'>Back to Home</button>
-            </a> 
+
+
+
+
+<Link to="/home">
+  <button className='bg-teal-950 text-white px-4 py-2 rounded-md'>
+    Back to Home
+  </button>
+</Link>
+
     </div>
   );
 };
